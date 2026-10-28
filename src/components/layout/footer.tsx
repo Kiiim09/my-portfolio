@@ -7,10 +7,6 @@ export function Footer() {
           © 2026 Luqman Hakim.
         </p>
 
-        <p>
-          Built with Next.js & Tailwind CSS.
-        </p>
-
       </div>
     </footer>
   );

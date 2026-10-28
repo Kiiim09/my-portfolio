@@ -19,4 +19,13 @@ export const experiences: Experience[] = [
     description:
       "Worked on mobile and web application development including Flutter features, API integration, UI implementation, testing, debugging and deployment preparation.",
   },
+  {
+    id: 3,
+    role: "Information Technology Intern",
+    company: "Suruhanjaya Koperasi Malaysia (SKM)",
+    period: "Sep 2021 – Feb 2022",
+    type: "Internship · 6 months",
+    description:
+      "Managed and maintained digital organizational records. Assisted in system-related troubleshooting and administrative support. Supported internal documentation and workflow digitization.",
+  },
 ];

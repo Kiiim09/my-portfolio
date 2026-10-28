@@ -1,56 +1,69 @@
+
 export function EducationSection() {
   return (
-    <section className="border-t border-border">
+    <section
+      id="education"
+      className="border-t border-border"
+    >
+      <div className="mx-auto max-w-6xl px-6 py-24">
 
-      <div className="mx-auto grid max-w-6xl gap-6 px-6 py-24 md:grid-cols-2">
-
-        <div className="rounded-2xl border border-border bg-card p-8">
-
-          <p className="mb-3 text-sm text-muted-foreground">
+        <div className="mb-12">
+          <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
             Education
           </p>
 
-          <h3 className="mb-2 text-xl font-semibold">
-            Bachelor of Computer Science
-          </h3>
-
-          <p className="mb-4 text-primary">
-            Mobile Computing
-          </p>
-
-          <p className="text-muted-foreground">
-            Universiti Malaysia Terengganu (UMT)
-          </p>
-
-          <p className="mt-2 text-sm text-muted-foreground">
-            Expected Graduation · October 2026
-          </p>
-
+          <h2 className="text-3xl font-bold md:text-4xl">
+            My academic background.
+          </h2>
         </div>
 
+        <div className="grid gap-6 md:grid-cols-2">
 
-        <div className="rounded-2xl border border-border bg-card p-8">
+          {/* Bachelor's Degree */}
+          <div className="rounded-2xl border border-border bg-card p-8 transition hover:border-primary/50">
+            <p className="mb-4 text-sm font-medium text-primary">
+              Oct 2022 – Oct 2026
+            </p>
 
-          <p className="mb-3 text-sm text-muted-foreground">
-            Certification
-          </p>
+            <h3 className="mb-2 text-xl font-semibold">
+              Bachelor's Degree in Information Technology
+            </h3>
 
-          <h3 className="mb-2 text-xl font-semibold">
-            Android Certified Associate Developer
-          </h3>
+            <p className="mb-4 font-medium">
+              Universiti Malaysia Terengganu (UMT)
+            </p>
 
-          <p className="text-primary">
-            ACAD
-          </p>
+            <p className="text-sm leading-7 text-muted-foreground">
+              Specialized in Mobile Application Development,
+              with a focus on mobile technologies and
+              software development.
+            </p>
+          </div>
 
-          <p className="mt-4 text-muted-foreground">
-            Mobile application development certification.
-          </p>
+          {/* Diploma */}
+          <div className="rounded-2xl border border-border bg-card p-8 transition hover:border-primary/50">
+            <p className="mb-4 text-sm font-medium text-primary">
+              Jun 2019 – Feb 2021
+            </p>
+
+            <h3 className="mb-2 text-xl font-semibold">
+              Diploma in Information Technology
+            </h3>
+
+            <p className="mb-4 font-medium">
+              Politeknik Ungku Omar (PUO)
+            </p>
+
+            <p className="text-sm leading-7 text-muted-foreground">
+              Completed a diploma in Information Technology,
+              developing foundational knowledge in computing,
+              information systems, and IT-related practices.
+            </p>
+          </div>
 
         </div>
 
       </div>
-
     </section>
   );
 }

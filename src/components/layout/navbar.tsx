@@ -7,7 +7,7 @@ export function Navbar() {
           href="#"
           className="text-xl font-bold"
         >
-          LH<span className="text-primary">.</span>
+          L.H<span className="text-primary"></span>
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
@@ -37,6 +37,13 @@ export function Navbar() {
             className="transition hover:text-foreground"
           >
             Experience
+          </a>
+
+          <a
+            href="#education"
+            className="transition hover:text-foreground"
+          >
+            Education
           </a>
 
           <a
