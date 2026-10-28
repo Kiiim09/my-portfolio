@@ -5,7 +5,7 @@ export function EducationSection() {
       id="education"
       className="border-t border-border"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
 
         <div className="mb-12">
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">

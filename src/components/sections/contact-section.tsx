@@ -4,7 +4,7 @@ export function ContactSection() {
       id="contact"
       className="border-t border-border"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
 
         <div className="rounded-3xl border border-border bg-card p-8 md:p-14">
 

@@ -8,7 +8,7 @@ export function ExperienceSection() {
       id="experience"
       className="border-t border-border bg-card/30"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
 
         <div className="mb-12">
           <SectionHeader

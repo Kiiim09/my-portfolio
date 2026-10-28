@@ -4,7 +4,7 @@ export function AboutSection() {
       id="about"
       className="border-t border-border"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
 
         <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
 

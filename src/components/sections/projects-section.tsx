@@ -8,7 +8,7 @@ export function ProjectsSection() {
       id="projects"
       className="border-t border-border"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-6 py-12 sm:py-16 lg:py-20">
 
         <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
 
