@@ -5,19 +5,19 @@ export const experiences: Experience[] = [
     id: 1,
     role: "Mobile Application Developer",
     company: "Alfatech Solution Sdn Bhd",
-    period: "April 2026 — Present",
-    type: "Contract",
+    period: "Apr 2026 — Present",
+    type: "Current role",
     description:
-      "Developing and maintaining Flutter applications, integrating REST APIs, implementing BLoC state management, resolving bugs and supporting application releases.",
+      "Develops and maintains Android and iOS applications using Flutter and Dart. Implements features, REST API integrations, and BLoC state management, including payment gateways, push notifications, local caching, and POS features. Troubleshoots bugs, improves performance, and manages app builds, testing, and releases to the Google Play Store and Apple App Store in collaboration with backend developers.",
   },
   {
     id: 2,
     role: "Mobile Application Developer Intern",
     company: "Alfatech Solution Sdn Bhd",
-    period: "March 2025 — March 2026",
-    type: "Internship",
+    period: "Mar 2025 — Mar 2026",
+    type: "Internship · 2u2i Program · 1 year",
     description:
-      "Worked on mobile and web application development including Flutter features, API integration, UI implementation, testing, debugging and deployment preparation.",
+      "Assisted with Flutter application development and maintenance, REST API integration, responsive UI, and BLoC-based features. Performed testing, debugging, and bug fixes; gained exposure to HTML, PHP, and Laravel; and collaborated with the team on feature implementation and documentation.",
   },
   {
     id: 3,

@@ -26,7 +26,7 @@ export function Navbar() {
           onClick={() => setIsOpen(false)}
           className="text-xl font-bold tracking-tight"
         >
-          L.H<span className="text-primary">.</span>
+          L<span className="text-primary">.</span>H
         </a>
 
         {/* Desktop Menu */}

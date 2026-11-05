@@ -19,45 +19,58 @@ export function EducationSection() {
 
         <div className="grid gap-6 md:grid-cols-2">
 
-          {/* Bachelor's Degree */}
           <div className="rounded-2xl border border-border bg-card p-8 transition hover:border-primary/50">
             <p className="mb-4 text-sm font-medium text-primary">
               Oct 2022 – Oct 2026
             </p>
 
             <h3 className="mb-2 text-xl font-semibold">
-              Bachelor's Degree in Information Technology
+              Bachelor of Computer Science (Mobile Computing)
             </h3>
 
             <p className="mb-4 font-medium">
               Universiti Malaysia Terengganu (UMT)
             </p>
 
-            <p className="text-sm leading-7 text-muted-foreground">
-              Specialized in Mobile Application Development,
-              with a focus on mobile technologies and
-              software development.
+            <ul className="mb-4 list-inside list-disc space-y-1 text-sm leading-7 text-muted-foreground">
+              <li>
+                Relevant coursework: Mobile Application Development, Database
+                Systems, Software Engineering, and Data Structures
+              </li>
+              <li>
+                Academic projects using Flutter, Dart, Java, HTML, SQL, and
+                Python
+              </li>
+            </ul>
+
+            <p className="text-sm font-medium text-muted-foreground">
+              Graduated October 2026 · CGPA: 3.19
             </p>
           </div>
 
-          {/* Diploma */}
           <div className="rounded-2xl border border-border bg-card p-8 transition hover:border-primary/50">
             <p className="mb-4 text-sm font-medium text-primary">
-              Jun 2019 – Feb 2021
+              Graduated August 2022
             </p>
 
             <h3 className="mb-2 text-xl font-semibold">
-              Diploma in Information Technology
+              Diploma of Information Technology (Digital Technology)
             </h3>
 
             <p className="mb-4 font-medium">
               Politeknik Ungku Omar (PUO)
             </p>
 
-            <p className="text-sm leading-7 text-muted-foreground">
-              Completed a diploma in Information Technology,
-              developing foundational knowledge in computing,
-              information systems, and IT-related practices.
+            <ul className="mb-4 list-inside list-disc space-y-1 text-sm leading-7 text-muted-foreground">
+              <li>
+                Strong foundation in programming, web development, and database
+                management
+              </li>
+              <li>Completed projects using Java, PHP, HTML, and SQL</li>
+            </ul>
+
+            <p className="text-sm font-medium text-muted-foreground">
+              CGPA: 3.80
             </p>
           </div>
 

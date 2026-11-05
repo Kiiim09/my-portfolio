@@ -21,17 +21,17 @@ export function AboutSection() {
 
           <div>
             <p className="mb-6 text-lg leading-8 text-muted-foreground">
-              I&apos;m a Mobile Application Developer specializing in Flutter
-              and Dart. My work includes developing and maintaining mobile
-              applications, integrating REST APIs, implementing BLoC state
-              management, debugging API issues and supporting application
-              releases.
+              I&apos;m a Mobile Application Developer with over a year of
+              experience building Android and iOS applications with Flutter,
+              Dart, and BLoC. I work on REST API integrations, local storage,
+              payment gateways, push notifications, and POS features.
             </p>
 
             <p className="leading-8 text-muted-foreground">
-              I enjoy turning application requirements into structured,
-              maintainable features while keeping the user experience simple
-              and consistent.
+              I also enjoy debugging issues, improving app performance, and
+              seeing features through testing and deployment to the Google Play
+              Store and Apple App Store. I hold a Bachelor of Computer Science
+              in Mobile Computing from Universiti Malaysia Terengganu.
             </p>
           </div>
 
