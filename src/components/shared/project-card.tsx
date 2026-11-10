@@ -23,7 +23,7 @@ export function ProjectCard({
 
       <p className="mb-5 text-sm text-primary">{subtitle}</p>
 
-      <p className="mb-8 flex-1 leading-7 text-muted-foreground">
+      <p className="mb-8 flex-1 text-justify leading-7 text-muted-foreground">
         {description}
       </p>
 

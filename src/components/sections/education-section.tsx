@@ -32,7 +32,7 @@ export function EducationSection() {
               Universiti Malaysia Terengganu (UMT)
             </p>
 
-            <ul className="mb-4 list-inside list-disc space-y-1 text-sm leading-7 text-muted-foreground">
+            <ul className="mb-4 list-inside list-disc space-y-1 text-justify text-sm leading-7 text-muted-foreground">
               <li>
                 Relevant coursework: Mobile Application Development, Database
                 Systems, Software Engineering, and Data Structures
@@ -61,7 +61,7 @@ export function EducationSection() {
               Politeknik Ungku Omar (PUO)
             </p>
 
-            <ul className="mb-4 list-inside list-disc space-y-1 text-sm leading-7 text-muted-foreground">
+            <ul className="mb-4 list-inside list-disc space-y-1 text-justify text-sm leading-7 text-muted-foreground">
               <li>
                 Strong foundation in programming, web development, and database
                 management

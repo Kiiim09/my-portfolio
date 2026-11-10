@@ -34,7 +34,7 @@ export function ExperienceCard({
           {company}
         </p>
 
-        <p className="mt-5 max-w-3xl leading-7 text-muted-foreground">
+        <p className="mt-5 max-w-3xl text-justify leading-7 text-muted-foreground">
           {description}
         </p>
       </div>

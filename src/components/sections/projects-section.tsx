@@ -17,7 +17,7 @@ export function ProjectsSection() {
             title="Applications I've worked on."
           />
 
-          <p className="max-w-md text-muted-foreground">
+          <p className="max-w-md text-justify text-muted-foreground">
             Mobile applications involving e-commerce,
             enterprise workflows and community services.
           </p>
