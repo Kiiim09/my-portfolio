@@ -31,7 +31,7 @@ export function ProjectCard({
         {technologies.map((technology) => (
           <span
             key={technology}
-            className="rounded-xl bg-secondary px-3 py-2 text-sm font-medium text-secondary-foreground transition-colors hover:bg-secondary/80"
+            className="rounded-xl bg-primary/10 px-3 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/15"
           >
             {technology}
           </span>
